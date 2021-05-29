@@ -221,8 +221,8 @@ body {
     margin: 0%;
 }
 .footer-icon {
-    color: rgb(58, 58, 236);
-    font-size: 28px;
+    color: #1259c3;
+    font-size: 35px;
 }
 .footer-subtitulo {
     padding: 7px 0;
@@ -241,7 +241,9 @@ body {
 .footer-envio, .footer-seguridad, .footer-tarjeta {
     margin: 10px;
 }
-
+.footer-icon:hover {
+    opacity: 0.7;
+}
 
 
 
@@ -346,7 +348,9 @@ body {
     }
 
     /* Footer */
-
+    .footer{
+        padding: 0;
+    }
     .footer-container {
         padding: 5%;
         flex-direction: row;
@@ -354,6 +358,12 @@ body {
         align-content: space-between;
         justify-content: center;
         margin: 0;
+    }
+    .footer-icon {
+        font-size: 40px;
+    }
+    .text-copyright {
+        padding: 1%;
     }
 
 
