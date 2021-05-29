@@ -222,7 +222,7 @@ body {
 }
 .footer-icon {
     color: #1259c3;
-    font-size: 35px;
+    font-size: 2em;
 }
 .footer-subtitulo {
     padding: 7px 0;
@@ -359,9 +359,7 @@ body {
         justify-content: center;
         margin: 0;
     }
-    .footer-icon {
-        font-size: 40px;
-    }
+    
     .text-copyright {
         padding: 1%;
     }
