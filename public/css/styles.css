@@ -249,6 +249,10 @@ body {
 
 
 @media  (min-width:565px) {
+    .shipping-icon {
+        right: -3%;
+    }
+
     .main{
         margin-top: 9vh;
     }
@@ -385,14 +389,14 @@ body {
     }
 
     .section-articulos {
-        max-width: 1200px;
+        max-width: 1300px;
     }
     
     .articulos {
         margin: auto;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        max-width: 21vw;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        max-width: 24vw;
 
     }
  
@@ -420,9 +424,25 @@ body {
         position: absolute;
         bottom: 4%;
     }
-   
-
     
 }
+
+@media (min-width:1300px){
+    .articulos {
+        max-width: 20vw;
+    }
+}
+
+@media (min-width:1500px){
+    .articulos {
+        max-width: 18vw;
+    }
+}
+@media (min-width:1600px){
+    .articulos {
+        max-width: 15vw;
+    }
+}
+
 
 /*  */
